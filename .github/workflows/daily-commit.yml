@@ -23,13 +23,13 @@ jobs:
 
           echo "Automated commit on $(date)" >> commit-log.txt
 
-      - name: Configure Git (sreya.addula@straive.com)
+      - name: Configure Git (venkatavignesh.a@straive.com)
 
         run: |
 
           git config --global user.name "GitHub Actions Bot"
 
-          git config --global user.email "sreya.addula@straive.com"
+          git config --global user.email "venkatavignesh.a@straive.com"
 
       - name: Commit and Push Changes
 
